@@ -4,16 +4,25 @@
     box-sizing: border-box;
 }
 body {
+    background: linear-gradient(to right, #23262a, #474b52);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 100px 0 0 0 ;
+    font-family: "Lucida Console", Courier, monospace;
+    color: #ffffff;
+}
+.clock-body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(to right, #23262a, #474b52);
+    min-height: 50vh;
 }
-
 .clock {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
