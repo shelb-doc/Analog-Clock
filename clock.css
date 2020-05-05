@@ -8,15 +8,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #1c3c72, #2a5298);
+    background: linear-gradient(to right, #23262a, #474b52);
 }
+
 .clock {
     width: 350px;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff url(clock.png);
+    background: #ffffff url(img/clock.png);
     background-size: cover;
     border-radius: 50%;
     border: 20px solid #ffffff;
@@ -85,4 +86,5 @@ height: 150px ;
 background: #ff6767;
 z-index: 12;
 border-radius: 6px 6px 0 0;
+
 }
